@@ -4,11 +4,11 @@
 
 /**
  *
- *  * main - Entry point
+ *  * main - Where programs are executed
  *
  *   *
  *
- *    * Return: Always 0 (Success)
+ *    * Return: 0
  *
  *     */
 

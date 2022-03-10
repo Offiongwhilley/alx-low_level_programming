@@ -5,14 +5,10 @@
 
 
 /**
- *
- *  * main - Where programs are executed
- *
- *   *
- *
- *    * Return: 0
- *
- *     */
+  * main - Where programs are executed
+  *
+  * Return: 0
+  */
 
 
 

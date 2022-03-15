@@ -1,4 +1,4 @@
-#include "main.h"
+#include"main.h"
 
 /**
  * print_times_table - Prints the n times table
@@ -8,7 +8,7 @@
  * Return: no return
  */
 
-int print_times_table(int n)
+void print_times_table(int n)
 {
 	int a, b, op;
 

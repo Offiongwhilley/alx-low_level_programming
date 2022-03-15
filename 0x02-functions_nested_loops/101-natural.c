@@ -1,8 +1,22 @@
+#include <stdio.h>
 #include "main.h"
 
 /**
- * print_times_table - Prints the n times table
+ * main - Prints natural numbers below 1024 that are
+ * multiplies of 3 or 5
  *
- * @n: number times table (0 < n <= 15)
- *
- * Return: no return
+ * Return: Always 0.
+ */
+
+int main(void)
+{
+	int a, b;
+
+	for (a = 1; a < 1024; a++)
+	{
+		if ((a % 3) == 0 || (a % 5) == 0)
+			b += a;
+	}
+	printf("%d\n", b);
+	return (0);
+}
